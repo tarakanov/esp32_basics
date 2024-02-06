@@ -46,3 +46,6 @@ while True:
 		enable_control = not enable_control  
 	else: 
 		enable_control
+
+
+# write to esp32 - mpremote cp step_4.py :main.py

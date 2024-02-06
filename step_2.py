@@ -20,5 +20,8 @@ while True:
 	else:
 		led.off()
 	time.sleep(1)
-	
+
 	enable_control = not enable_control
+
+
+# write to esp32 - mpremote cp step_2.py :main.py
