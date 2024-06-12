@@ -62,6 +62,6 @@ while True:
 	time.sleep(1)
 
 
-# см. скриншоты step_3_*.png
+# см. скриншоты step_3_*.png и commands.md
 
 
