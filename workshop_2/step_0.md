@@ -19,9 +19,9 @@
 5. Залить на esp32 прошивку с micropython:
   - Скачать прошивку из репозитория - https://micropython.org/download/ESP32_GENERIC/
   - Подсоединить esp32 devkit к компьютеру через microUSB
-  - Стереть внутреннюю флеш - esptool.py -p /dev/tty.usbserial-0001 erase_flash
-  - Залить свежую прошивку - esptool.py -p /dev/tty.usbserial-0001 -b 460800 write_flash -z 0x1000  ./ESP32_GENERIC-20240105-v1.22.1.bin
-  - Перезагрузить esp32 (по питанию или нажать кнопку EN)
+  - Стереть внутреннюю флеш - `esptool.py -p /dev/tty.usbserial-0001 erase_flash`
+  - Залить свежую прошивку - `esptool.py -p /dev/tty.usbserial-0001 -b 460800 write_flash -z 0x1000  ./ESP32_GENERIC-20240105-v1.22.1.bin`
+  - Перезагрузить esp32 (по питанию или нажать кнопку `EN`)
   
 6. Подключиться к оболочке micropython:
   - Подсоединить esp32 devkit к компьютеру через microUSB
